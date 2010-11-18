@@ -1,6 +1,15 @@
-conf
-database
-logs
-tmp
-settings.local.php
+# First level directories.
+/.*
+/conf
+/database
+/logs
+/tmp
+
+# Site-specific data.
+/www/sites/default/settings.local.php
+/www/sites/default/files/imagecache/*
+/www/sites/default/files/imagefield_thumbs/*
+/www/sites/default/files/js/*
+/www/sites/default/files/css/*
+/www/sites/default/files/languages/*
 
